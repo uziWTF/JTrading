@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "timestamp": "2026-07-14 17:28:55 (北京时间)",
+      "rsi": 55.42,
+      "price": 1.139,
+      "market_date": "2026-07-14",
+      "signal": "仓位不动",
+      "buy_threshold": 34.27,
+      "sell_threshold": 70.73,
+      "volatility": 15.74,
+      "notification_decision": "skip",
+      "notification_reason": "信号为仓位不动，且非周三，不发送通知"
+    },
+    {
       "timestamp": "2026-07-13 18:42:13 (北京时间)",
       "rsi": 51.46,
       "price": 1.126,
@@ -347,18 +359,6 @@
       "volatility": 9.57,
       "notification_decision": "send",
       "notification_reason": "周三心跳包，策略正常运行"
-    },
-    {
-      "timestamp": "2026-06-02 19:52:14 (北京时间)",
-      "rsi": 55.74,
-      "price": 1.182,
-      "market_date": "2026-06-02",
-      "signal": "仓位不动",
-      "buy_threshold": 31.95,
-      "sell_threshold": 73.05,
-      "volatility": 9.42,
-      "notification_decision": "skip",
-      "notification_reason": "信号为仓位不动，且非周三，不发送通知"
     }
   ]
 }
