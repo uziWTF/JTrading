@@ -1,6 +1,18 @@
 {
   "runs": [
     {
+      "timestamp": "2026-08-03 18:56:53 (北京时间)",
+      "rsi": 66.64,
+      "price": 1.203,
+      "market_date": "2026-08-03",
+      "signal": "仓位不动",
+      "buy_threshold": 34.78,
+      "sell_threshold": 70.22,
+      "volatility": 17.14,
+      "notification_decision": "skip",
+      "notification_reason": "信号为仓位不动，且非周三，不发送通知"
+    },
+    {
       "timestamp": "2026-07-31 18:14:04 (北京时间)",
       "rsi": 67.09,
       "price": 1.204,
@@ -345,18 +357,6 @@
       "buy_threshold": 32.66,
       "sell_threshold": 72.34,
       "volatility": 11.36,
-      "notification_decision": "send",
-      "notification_reason": "RSI低于动态买入阈值，触发买入信号"
-    },
-    {
-      "timestamp": "2026-06-22 21:16:52 (北京时间)",
-      "rsi": 30.13,
-      "price": 1.114,
-      "market_date": "2026-06-22",
-      "signal": "买入",
-      "buy_threshold": 32.7,
-      "sell_threshold": 72.3,
-      "volatility": 11.46,
       "notification_decision": "send",
       "notification_reason": "RSI低于动态买入阈值，触发买入信号"
     }
