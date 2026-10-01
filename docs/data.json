@@ -12,5 +12,5 @@
   "strategy": "RSI(15) + Vol dynamic",
   "backtest_return": "312.30%",
   "backtest_annual": "21.39%",
-  "timestamp": "2026-09-30 22:13:45 (北京时间)"
+  "timestamp": "2026-10-01 22:45:50 (北京时间)"
 }
